@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AHS Broker | Google Voice & DAT One</title>
+    <meta
+      name="description"
+      content="AHS Broker sells Google Voice numbers and DAT One access for freight brokers and carriers. Get set up fast."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=2" />
+  </head>
+  <body>
+    <header class="nav">
+      <a class="brand" href="#top">
+        <span class="brand-mark">AHS</span>
+        <span class="brand-text">BROKER</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#products">Products</a>
+        <a href="#why">Why us</a>
+        <a href="#order">Order</a>
+      </nav>
+      <a class="nav-cta" href="#order">Get a quote</a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <p class="eyebrow">Freight comms + load board access</p>
+        <h1>Google Voice and DAT One, ready to work.</h1>
+        <p class="lede">
+          AHS Broker supplies working Google Voice numbers and DAT One accounts
+          so brokers and carriers can take calls and book freight without the
+          setup headache.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#order">Order now</a>
+          <a class="btn ghost" href="#products">See products</a>
+        </div>
+        <ul class="hero-stats">
+          <li><strong>Same-day</strong> setup on most orders</li>
+          <li><strong>Two products</strong> brokers actually need</li>
+          <li><strong>Direct</strong> support after you buy</li>
+        </ul>
+      </section>
+
+      <section id="products" class="products">
+        <header class="section-head">
+          <p class="eyebrow">What we sell</p>
+          <h2>Pick what you need. Or take both.</h2>
+        </header>
+
+        <div class="product-grid">
+          <article class="product-card" id="google-voice">
+            <p class="product-tag">Communications</p>
+            <h3>Google Voice</h3>
+            <p>
+              A dedicated number you can use for dispatch, owner-ops, and
+              shippers. Keep personal phones private and look like a real
+              operation.
+            </p>
+            <ul>
+              <li>US numbers for business calling and texting</li>
+              <li>Works on phone, tablet, and desktop</li>
+              <li>Call forwarding and voicemail</li>
+              <li>Clean handoff after purchase</li>
+            </ul>
+            <a class="btn primary" href="#order" data-product="Google Voice">Order Google Voice</a>
+          </article>
+
+          <article class="product-card featured" id="dat-one">
+            <p class="product-tag">Load board</p>
+            <h3>DAT One</h3>
+            <p>
+              DAT One access for searching loads, posting trucks, and checking
+              market rates. Built for people who live on the board all day.
+            </p>
+            <ul>
+              <li>Load search and truck posting</li>
+              <li>Rate insight to price smarter</li>
+              <li>Broker and carrier-ready setups</li>
+              <li>Help getting you logged in and running</li>
+            </ul>
+            <a class="btn primary" href="#order" data-product="DAT One">Order DAT One</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="why" class="why">
+        <header class="section-head">
+          <p class="eyebrow">Why AHS Broker</p>
+          <h2>No runaround. You pay, you get access.</h2>
+        </header>
+        <div class="why-grid">
+          <article>
+            <h3>Fast delivery</h3>
+            <p>
+              Most Google Voice and DAT One orders are completed the same day
+              once payment is confirmed.
+            </p>
+          </article>
+          <article>
+            <h3>Built for freight</h3>
+            <p>
+              We sell what dispatchers and brokers actually use: a number that
+              rings, and a board that books.
+            </p>
+          </article>
+          <article>
+            <h3>Support after sale</h3>
+            <p>
+              If login, transfer, or first-day setup gets stuck, you talk to us
+              — not a ticket queue.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="order" class="order">
+        <header class="section-head">
+          <p class="eyebrow">Order</p>
+          <h2>Tell us what you need.</h2>
+          <p>
+            Choose Google Voice, DAT One, or both. We will reply with price and
+            delivery time.
+          </p>
+        </header>
+
+        <form id="order-form" class="order-form">
+          <label>
+            Name
+            <input type="text" name="name" required placeholder="Your name" />
+          </label>
+          <label>
+            Phone or email
+            <input
+              type="text"
+              name="contact"
+              required
+              placeholder="How we should reach you"
+            />
+          </label>
+          <fieldset>
+            <legend>Product</legend>
+            <label class="choice">
+              <input type="radio" name="product" value="Google Voice" required />
+              Google Voice
+            </label>
+            <label class="choice">
+              <input type="radio" name="product" value="DAT One" />
+              DAT One
+            </label>
+            <label class="choice">
+              <input type="radio" name="product" value="Google Voice + DAT One" />
+              Both
+            </label>
+          </fieldset>
+          <label>
+            Notes
+            <textarea
+              name="notes"
+              rows="4"
+              placeholder="Area code, broker vs carrier, how soon you need it"
+            ></textarea>
+          </label>
+          <button class="btn primary" type="submit">Send order request</button>
+          <p id="form-status" class="form-status" hidden></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p><strong>AHS Broker</strong> — Google Voice & DAT One</p>
+      <p>One-page shop for numbers and load board access.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
