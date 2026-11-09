@@ -1,0 +1,310 @@
+{
+  "carrier": {
+    "name": "WERC Deliveries LLC",
+    "dba": "WALI ABDUR-RAHMAN",
+    "mc": "1766777",
+    "dot": "4475311",
+    "driver": "Wali Abdur Rahman",
+    "truck": "01",
+    "trailer": "01"
+  },
+  "notes": [
+    "Trip fields filled only from attached rate confirmations / BOL photos.",
+    "Duty status graph, driving hours, engine hours, and odometer intentionally blank.",
+    "Not an official Motive export and not a certified RODS."
+  ],
+  "loads": [
+    {
+      "load_number": "47187241",
+      "broker": "Armstrong Transport Group Inc",
+      "invoice_number": "1609873",
+      "invoice_date": "2026-10-05",
+      "rate_usd": 1250.0,
+      "equipment": "SV / Straight Van",
+      "commodity": "Elevator parts (12 pallets)",
+      "weight_lbs": 5000,
+      "miles": null,
+      "pickup": {
+        "date": "2026-10-02",
+        "time": "08:00-12:00 EST",
+        "name": "Canton Elevator",
+        "city": "North Canton, OH",
+        "address": "2575 Greensburg Rd, North Canton, OH 44720"
+      },
+      "delivery": {
+        "date": "2026-10-05",
+        "time": "06:00-07:00 EST APT",
+        "name": "Shenandoah Elevator c/o Covenant Presbyterian Church",
+        "city": "Harrisonburg, VA",
+        "address": "546 W Mosby Rd, Harrisonburg, VA 22801"
+      },
+      "source_file": "COMBINED-47187241-...pdf",
+      "missing": ["miles", "VIN/plate", "actual HOS", "tractor/trailer on RC blank"]
+    },
+    {
+      "load_number": "6479465",
+      "broker": "Ryan Transportation Service Inc",
+      "invoice_number": "1619415",
+      "invoice_date": "2026-10-13",
+      "rate_usd": 1936.0,
+      "equipment": "Straight Box Truck",
+      "commodity": "Plastic",
+      "weight_lbs": 2548,
+      "miles": 895,
+      "pickup": {
+        "date": "2026-10-12",
+        "time": "10:30",
+        "name": "AMCOR RIGID PEOS",
+        "city": "Peosta, IA",
+        "address": "19101 Kapp Drive, Peosta, IA 52068"
+      },
+      "delivery": {
+        "date": "2026-10-13",
+        "time": "08:00",
+        "name": "AMCOR RIGID HAN-7447",
+        "city": "Hanover, MD",
+        "address": "7447 Candlewood Road, Hanover, MD 21076"
+      },
+      "source_file": "COMBINED-6479465-...pdf",
+      "missing": ["actual HOS", "VIN/plate", "tractor/trailer on RC blank"]
+    },
+    {
+      "load_number": "2770276",
+      "broker": "MegaCorp Logistics",
+      "invoice_number": "1623613",
+      "invoice_date": "2026-10-16",
+      "rate_usd": 2000.0,
+      "rate_on_confirmation_usd": 2300.0,
+      "equipment": "26FT Box Truck",
+      "commodity": "Furniture & Appliances",
+      "weight_lbs": 700,
+      "miles": 1433.94,
+      "pickup": {
+        "date": "2026-10-13",
+        "time": "12:00 APPT",
+        "name": "BHC RLC NE DC",
+        "city": "Hainesport, NJ",
+        "address": "6 Berry Dr, Hainesport, NJ 08048"
+      },
+      "delivery": {
+        "date": "2026-10-15",
+        "time": "07:00-10:00 FCFS",
+        "name": "York International",
+        "city": "Norman, OK",
+        "address": "5005 York Drive, Norman, OK 73069"
+      },
+      "source_file": "COMBINED-2770276-...pdf",
+      "missing": [
+        "actual HOS",
+        "VIN/plate",
+        "rate mismatch: Bobtail invoice $2000 vs MegaCorp RC $2300"
+      ]
+    },
+    {
+      "load_number": "0243426",
+      "broker": "Spice Logistics LLC",
+      "invoice_number": "1626165",
+      "invoice_date": "2026-10-19",
+      "rate_usd": 1200.0,
+      "equipment": "26 ft box truck",
+      "commodity": null,
+      "weight_lbs": null,
+      "miles": 498.0,
+      "pickup": {
+        "date": "2026-10-18",
+        "time": "22:00",
+        "name": "Midwest Hose",
+        "city": "Oklahoma City, OK",
+        "address": "3312 S I-35 Service Road, Oklahoma City, OK 73129"
+      },
+      "delivery": {
+        "date": "2026-10-19",
+        "time": "07:00",
+        "name": "AXIS Portable Air",
+        "city": "Saint Charles, MO",
+        "address": "3895 Fountain Lakes Parkway East, Saint Charles, MO 63301"
+      },
+      "source_file": "COMBINED-0243426-...pdf",
+      "missing": [
+        "actual HOS",
+        "commodity/weight on readable RC page",
+        "typed rate-confirmation stop page (used BOL photo for stops)"
+      ]
+    },
+    {
+      "load_number": "S4444956",
+      "broker": "Spot Freight Inc",
+      "invoice_number": "1626729",
+      "invoice_date": "2026-10-20",
+      "rate_usd": 900.0,
+      "equipment": "Dry Straight Truck",
+      "commodity": "Box Truck - Palletized Cardboard",
+      "weight_lbs": 8999.97,
+      "miles": 506.1,
+      "pickup": {
+        "date": "2026-10-19",
+        "time": "07:00-12:00",
+        "name": "Mimir Group, LLC",
+        "city": "Troy, MO",
+        "address": "300 Industrial Drive, Troy, MO 63379"
+      },
+      "delivery": {
+        "date": "2026-10-20",
+        "time": "08:00-14:00",
+        "name": "BOXTECH EAST, LLC",
+        "city": "Swanton, OH",
+        "address": "2330 US-20 / OH-120, Swanton, OH 43558"
+      },
+      "source_file": "COMBINED-S4444956-...pdf",
+      "missing": ["actual HOS", "VIN/plate"]
+    },
+    {
+      "load_number": "1165346",
+      "broker": "Trident Transport",
+      "invoice_number": "1630289",
+      "invoice_date": "2026-10-23",
+      "rate_usd": 1200.0,
+      "equipment": "Straight Box Truck",
+      "commodity": "Machinery",
+      "weight_lbs": 3000,
+      "miles": 593.0,
+      "pickup": {
+        "date": "2026-10-20",
+        "time": "08:00 (window through 10/21 16:00 on RC)",
+        "name": "WIRCO Plant 3",
+        "city": "Avilla, IN",
+        "address": "201 Nicholas Place, Avilla, IN 46710",
+        "bol_notes": "BOL stamp shows Oct 21, 2026 ~06:00 shipper / driver signed 08:10"
+      },
+      "delivery": {
+        "date": "2026-10-21",
+        "time": "12:52",
+        "name": "Flame Metals Processing Corp",
+        "city": "Rogers, MN",
+        "address": "12450 Ironwood Circle, Rogers, MN 55374",
+        "bol_notes": "BOL header also lists scheduled delivery 10/22"
+      },
+      "source_file": "COMBINED-1165346-...pdf",
+      "missing": [
+        "actual HOS",
+        "VIN/plate (RC tractor VIN all zeros)",
+        "RC vs BOL date conflict on pickup/delivery day"
+      ]
+    },
+    {
+      "load_number": "6513846",
+      "broker": "Ryan Transportation Service Inc",
+      "invoice_number": "1634390",
+      "invoice_date": "2026-10-27",
+      "rate_usd": 2100.0,
+      "equipment": "Straight Box Truck",
+      "commodity": "Equipment - All kinds",
+      "weight_lbs": 5000,
+      "miles": null,
+      "pickup": {
+        "date": "2026-10-22",
+        "time": "08:00-16:00",
+        "name": "Ex-Guard",
+        "city": "Des Moines, IA",
+        "address": "2515 Dean Avenue, Des Moines, IA 50317"
+      },
+      "delivery": {
+        "date": "2026-10-26",
+        "time": "08:00-15:00",
+        "name": "Four Star Freightliner",
+        "city": "Albany, GA",
+        "address": "1803 W Oakridge Dr, Albany, GA 31707"
+      },
+      "source_file": "COMBINED-6513846-...pdf",
+      "missing": ["miles", "actual HOS", "VIN/plate", "pieces count"]
+    },
+    {
+      "load_number": "6533137",
+      "broker": "Ryan Transportation Service Inc",
+      "invoice_number": "1638161",
+      "invoice_date": "2026-10-30",
+      "rate_usd": 1020.0,
+      "equipment": "Straight Box Truck",
+      "commodity": "General Cargo",
+      "weight_lbs": 3085,
+      "miles": null,
+      "pickup": {
+        "date": "2026-10-29",
+        "time": "08:00-15:30",
+        "name": "Marel Inc. Storage",
+        "city": "Buford, GA",
+        "address": "940 Sherwin Pkwy, Ste. 180, Buford, GA 30518"
+      },
+      "delivery": {
+        "date": "2026-10-30",
+        "time": "08:00-14:00",
+        "name": "Farmer's Pride Inc",
+        "city": "Fredericksburg, PA",
+        "address": "520 Chestnut Hill Road, Fredericksburg, PA 17026"
+      },
+      "source_file": "COMBINED-6533137-...pdf",
+      "missing": ["miles", "actual HOS", "VIN/plate", "tractor/trailer on RC blank"]
+    },
+    {
+      "load_number": "273192",
+      "broker": "Pinnacle Pro Logistics LLC",
+      "invoice_number": "1642186",
+      "invoice_date": "2026-11-03",
+      "rate_usd": 1300.0,
+      "equipment": "10' Straight Truck",
+      "commodity": "General Goods",
+      "weight_lbs": null,
+      "miles": null,
+      "pieces": "Hot Load / 3000 (field labeled pieces or miles ambiguous on RC)",
+      "pickup": {
+        "date": "2026-11-02",
+        "time": "08:30",
+        "name": "The Town Hall",
+        "city": "New York, NY",
+        "address": "123 W 43rd St, New York, NY 10036"
+      },
+      "delivery": {
+        "date": "2026-11-03",
+        "time": "11:00-16:00",
+        "name": "Networks Rentals",
+        "city": "Buffalo, NY",
+        "address": "4091 Jeffrey Blvd, Buffalo, NY 14219"
+      },
+      "source_file": "COMBINED-273192-...pdf",
+      "missing": [
+        "clear miles vs pieces field",
+        "weight",
+        "actual HOS",
+        "VIN/plate",
+        "tractor/trailer on RC blank"
+      ]
+    },
+    {
+      "load_number": "24585956",
+      "broker": "RXO Capacity Solutions LLC",
+      "invoice_number": "1644414",
+      "invoice_date": "2026-11-05",
+      "rate_usd": 1400.0,
+      "equipment": "Small Straight",
+      "commodity": "Cartons (7)",
+      "weight_lbs": 5000,
+      "miles": null,
+      "pickup": {
+        "date": "2026-11-04",
+        "time": "08:00-09:00",
+        "name": "Open Library - Dock Door 3",
+        "city": "Latrobe, PA",
+        "address": "298 Cherry Hills Drive, Latrobe, PA 15650"
+      },
+      "delivery": {
+        "date": "2026-11-05",
+        "time": "07:30-14:00",
+        "name": "Sterling Corp",
+        "city": "Chelmsford, MA",
+        "address": "20 Industrial Ave, Chelmsford, MA 01824"
+      },
+      "source_file": "COMBINED-24585956-...pdf",
+      "missing": ["miles", "actual HOS", "VIN/plate", "driver/tractor/trailer blanks on RC"]
+    }
+  ]
+}
